@@ -1,0 +1,65 @@
+.top-profiles-section {
+    padding-bottom: 2rem;
+}
+.top-profiles-section .regular-header {
+    color: #00CFEE;
+}
+.top-profiles-section .secondary-btn {
+    z-index: 80;
+}
+.profile-card-wrapper {
+    max-width: 112rem;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+}
+.profile-card-item {
+    /* width: 26rem;
+    height: 34rem; */
+    width: 22rem;
+    height: 33rem;
+    border-radius: 10px;
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    background-color: #ccc;
+}
+.profile-card-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 80;
+    background: transparent;
+    height: 100%;
+    border:none;
+}
+.profile-photo img {
+    width: 100%;
+    height: auto;
+}
+.profile-card-info {
+    color: #365257;
+    font-size: 16px;
+    /* background: url("../folderURB/img/card-rectangle.svg") no-repeat; */
+    position: absolute;
+    bottom: 0;
+    height: 65px;
+    padding: 16px 22px 0;
+    width: 100%;
+    background-color: #C9EEF6;
+}
+.card-name {
+     font-family: 'PT Sans', sans-serif;
+        font-weight: 700;
+}
+.card-years {
+    padding-left: 4px;
+}
+.card-city {
+    padding-right: 4px;
+     font-family: 'PT Sans', sans-serif;
+     font-weight: 700;
+}

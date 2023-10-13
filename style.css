@@ -1,0 +1,371 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    color: #365257;
+}
+.banner{
+    background-image: url(/folderURB/img/banner.jpg);
+     background-size: cover;
+    background-repeat: no-repeat;  
+    background-position: center;   
+    height: 100vh;                 
+    margin: 0 !important;  
+    padding: 0 !important;
+}
+.btn_login button{
+    border: 2px solid #365257;
+    border-radius: 5px;
+    color: #365257;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    padding: 1rem 2.26rem;
+}
+.navBar{
+    padding-top: 1.625rem;
+    position: relative;
+}
+.banner-title{
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size: 3.8125rem;
+    color: #365257;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+}
+.icon_btn{
+    margin-left: 1rem;
+}
+.block_login{
+    background-color: #C9EEF6;
+    position: absolute;
+    /* right: 1.5rem; */
+    right: 0;
+    top: 5.8rem;
+    min-width: 458px;
+    align-items: center !important;
+    padding: 2.4375rem 1rem  2rem;
+}
+.facebook_btn{
+    background-color: #3B5998 !important;
+    color: #FFF !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700 !important;
+    font-size: 1.25rem !important;
+    width: 100% !important;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.line {
+  flex-grow: 1; 
+  height: 1px;  
+  background-color: #365257; 
+  margin: 0 10px;
+}
+
+.text {
+  white-space: nowrap;
+  font-family: 'PT Sans', sans-serif;
+    font-weight: 700 !important;
+    font-size: 1.25rem !important;
+    color: #365257;
+}
+.child_btn_login{
+    background-color: #00CFEE !important;
+    color: #fff !important;
+    margin-top: .5rem;
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700 !important;
+    font-size: 1.25rem !important;
+    width: 100% !important;
+    padding: 1rem !important;
+}
+.helper_password{
+    color: #365257;
+    font-size: 1.25rem;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700 !important;
+}
+.link_helper_password{
+    margin-top: 1rem;
+}
+.form-control, .form-select{
+    padding: 1rem !important;
+}
+.input_login{
+    margin: 0 auto .5rem;
+    line-height: 0 !important;
+    color: #365257 !important;
+}
+
+.registration{
+  width:455px ; 
+  margin: 0 auto; 
+}
+.select_login{
+    padding-top: .5rem;
+}
+
+.left_block{
+    max-width: 500px;
+    padding: 0 1.375rem;
+}
+.deal{
+    font-size: 0.75rem;
+    margin: 1rem auto;
+}
+.deal p{
+    color: #365257;
+}
+.deal a{
+    color: #FF4E4E;
+    font-weight: 700;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.button-animated-gradient {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff !important;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-size: 200% 200%;
+  background-image: linear-gradient(45deg, #2858A0, #00CFEE, #365257);
+  animation: gradientAnimation 3s linear infinite;
+  transition: transform 0.3s;
+}
+
+.divider_align_bottom{
+    margin-bottom: .5rem;
+}
+.btn_singin{
+    color: #365257;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700 !important;
+    font-size: 2rem;
+   
+}
+.link_color{
+    color: #00CFEE !important;
+    text-decoration: underline;
+}
+.showing_section{
+    margin-top: .5rem;
+}
+.advantage_1, .advantage_2, .advantage_3{
+    background-color: #C9EEF6;
+    text-align: center;
+    color: #365257;
+    padding: 0 1.875rem;
+}
+
+.advantage_1:hover, .advantage_2:hover, .advantage_3:hover{
+    background-color: #00CFEE;
+}
+.advantage_title p{
+    font-size: 2.5rem;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700 !important;
+    margin-top: 1.5rem;
+}
+.advantage_img{
+    margin-bottom: 1.875rem;
+}
+.advantage_text{
+    margin-bottom: 3rem;
+}
+.title_section p{
+    color: #365257;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+.fact_1, .fact_2, .fact_3{
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    color: #365257;
+    padding: 0 1.5rem;
+}
+.fact_title{
+    font-size: 1.875rem;
+    font-weight: 700;
+}
+.subtitle_conteinet{
+    font-size: 1.25rem;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+}
+.title_conteiner{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+.greetings, .matchmaking_tours{
+    background-color: #C9EEF6;
+    margin: 1rem auto;
+    color: #365257;
+}
+.conteiner_text{
+     padding: 1.5rem;
+}
+.success_stories_btn{
+    width: 29rem;
+    align-items: center;
+    margin: 1rem auto;
+}
+.blog_storie_title{
+    text-transform: uppercase;
+    font-size: 1.75rem;
+    text-align: center;
+    font-weight: 700;
+    padding: 1rem;
+    height: 8rem;
+}
+.blog_storie{
+  color: #365257;  
+}
+.blog_storie_text{
+    padding: 0 .5rem;
+    margin: 1rem auto;
+}
+
+.all_blog{
+    gap: 1rem;
+    height: 100%;
+}
+.blog_storie_img img{
+    height: 23rem;
+    object-fit: cover;
+}
+.conteiner_img img{
+    object-fit: cover;  
+    object-position: top;
+}
+.text_matchmaking_tours{
+    margin-top: 3rem;
+    /* width: 48rem; */
+}
+.matchmaking_tours{
+   max-height: 30rem; 
+}
+.footer_link{
+    background-color: #365257;
+    color: #fff;
+}
+.footer_link a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer_link a:hover{
+    color: #00CFEE;
+}
+.block_link a{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+}
+
+.copyright p{
+    margin: 0 auto;
+    text-align: center;
+    font-size: .75rem;
+    padding: 1rem;
+}
+.content_footer{
+    padding:5rem 0 2rem;
+}
+.social_link{
+    width: 18.75rem;
+    margin: auto;
+}
+.link{
+    margin: 2.5rem 0;
+}
+.hidden{
+    display: none;
+}
+
+.arrow-up {
+    transform: rotate(180deg);
+}
+
+@media screen and (max-device-width: 500px){
+    .registration, .success_stories_btn{
+        width: 100%;
+    }
+    .blog_storie_title {
+        height: auto;
+    }
+    .banner-title {
+        font-size: 2rem; 
+        margin-top: 0;   
+    }
+    .form-control, .form-select {
+        padding: 0.5rem !important;
+    }
+    .advantages, .greetings, .navBar, .block_facts, .all_blog, 
+    .matchmaking_tours, .content_footer{
+        flex-wrap: wrap;
+    } 
+    .matchmaking_tours {
+        max-height: 100%;
+    }
+    .title_section p, .title_conteiner{
+        font-size: 1.75rem;
+    }
+    .fact_title, .btn_singin{
+        font-size: 1.5rem;
+    }
+    .logo_futer, .logo{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .btn_login{
+        display: none;
+    }
+    .navBar .logo img{
+        justify-content: center !important;
+        text-align: center;
+        margin: 0 auto;
+    }
+   
+    .child_btn_login, .facebook_btn {
+        padding: 0.5rem 1rem !important;
+        margin-bottom: 1rem;
+    }
+    .divider{
+        display: none;
+    }
+
+}
